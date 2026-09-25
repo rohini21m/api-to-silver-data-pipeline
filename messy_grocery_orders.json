@@ -1,0 +1,2658 @@
+{
+    "status": "success",
+    "total_records": 100,
+    "data": [
+        {
+            "order_id": "GROC-1001",
+            "customer_id": "CUST-540",
+            "order_timestamp": "2026-09-04 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 1,
+                    "item_price": 2.08
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1002",
+            "customer_id": "CUST-527",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 1,
+                    "item_price": "$1.18"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1003",
+            "customer_id": "CUST-526",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": "$2.67"
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 3,
+                    "item_price": 3.77
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": 1.15
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": 2.66
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1004",
+            "customer_id": "CUST-505",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": 3.01
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": 1.14
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": "2",
+                    "item_price": "$1.34"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1005",
+            "customer_id": "CUST-510",
+            "order_timestamp": "2026-09-12 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 1,
+                    "item_price": "$4.13"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": "$2.87"
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": null,
+                    "item_price": 2.97
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1006",
+            "customer_id": "CUST-549",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 1,
+                    "item_price": 2.64
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 3,
+                    "item_price": "$4.32"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1007",
+            "customer_id": "CUST-525",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": null,
+                    "item_price": 2.85
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": "$3.13"
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 2,
+                    "item_price": "$3.78"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": "$3.29"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1008",
+            "customer_id": "CUST-550",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": null,
+                    "item_price": "$3.80"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1009",
+            "customer_id": "CUST-543",
+            "order_timestamp": "2026-09-04 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": 1.84
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 3,
+                    "item_price": "$2.72"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": "$3.46"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1010",
+            "customer_id": "CUST-538",
+            "order_timestamp": "2026-09-07 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": null,
+                    "item_price": "$2.09"
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 1,
+                    "item_price": 2.54
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1011",
+            "customer_id": "CUST-515",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": 3.04
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 2,
+                    "item_price": "$1.37"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1012",
+            "customer_id": "CUST-535",
+            "order_timestamp": "2026-09-06 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 2,
+                    "item_price": 3.54
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 3,
+                    "item_price": "$3.46"
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": "2",
+                    "item_price": "$4.28"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1013",
+            "customer_id": "CUST-515",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": null,
+                    "item_price": "$1.80"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1014",
+            "customer_id": "CUST-545",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 3,
+                    "item_price": 3.64
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1010",
+            "customer_id": "CUST-517",
+            "order_timestamp": "2026-09-16 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": "$3.05"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.77"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1016",
+            "customer_id": "CUST-542",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$3.82"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 1,
+                    "item_price": "$1.14"
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 2,
+                    "item_price": "$3.74"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1017",
+            "customer_id": "CUST-529",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": "$5.83"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1018",
+            "customer_id": "CUST-500",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": "2",
+                    "item_price": 2.93
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": "2",
+                    "item_price": 2.32
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1019",
+            "customer_id": "CUST-518",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 1,
+                    "item_price": 2.8
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": 2.92
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": null,
+                    "item_price": 2.27
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 2,
+                    "item_price": "$2.73"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1020",
+            "customer_id": "CUST-543",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": null,
+                    "item_price": "$1.36"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": null,
+                    "item_price": 2.53
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": "$2.80"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 3,
+                    "item_price": 1.89
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1021",
+            "customer_id": "CUST-500",
+            "order_timestamp": "2026-09-15 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 2,
+                    "item_price": "$1.26"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1022",
+            "customer_id": "CUST-523",
+            "order_timestamp": "2026-09-10 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": "$5.86"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 3,
+                    "item_price": "$2.97"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1023",
+            "customer_id": "CUST-507",
+            "order_timestamp": "2026-09-04 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": 2.09
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": null,
+                    "item_price": "$4.14"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1024",
+            "customer_id": "CUST-505",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 2,
+                    "item_price": 1.99
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": "2",
+                    "item_price": 2.04
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 2,
+                    "item_price": 2.97
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": 2.98
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1025",
+            "customer_id": "CUST-502",
+            "order_timestamp": "2026-09-10 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 2,
+                    "item_price": 2.69
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": "2",
+                    "item_price": "$1.21"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": "$2.93"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1026",
+            "customer_id": "CUST-526",
+            "order_timestamp": "2026-09-01 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 2,
+                    "item_price": 2.1
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": "2",
+                    "item_price": "$2.04"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1027",
+            "customer_id": "CUST-514",
+            "order_timestamp": "2026-09-07 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 2,
+                    "item_price": "$1.91"
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 3,
+                    "item_price": 3.61
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": "$2.35"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": null,
+                    "item_price": 2.05
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1028",
+            "customer_id": "CUST-516",
+            "order_timestamp": "2026-09-06 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 3,
+                    "item_price": 2.29
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": "2",
+                    "item_price": "$3.97"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": 2.62
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1029",
+            "customer_id": "CUST-543",
+            "order_timestamp": "2026-09-07 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 3,
+                    "item_price": "$3.56"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": "$2.69"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": "2",
+                    "item_price": 3.16
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1030",
+            "customer_id": "CUST-512",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": null,
+                    "item_price": 3.06
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": null,
+                    "item_price": 2.39
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": 2.88
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 2,
+                    "item_price": "$4.00"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1031",
+            "customer_id": "CUST-542",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": "$1.33"
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 1,
+                    "item_price": 4.23
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 1,
+                    "item_price": "$4.38"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1032",
+            "customer_id": "CUST-512",
+            "order_timestamp": "2026-09-13 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$3.69"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": null,
+                    "item_price": 1.32
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": 5.0
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": 5.09
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1033",
+            "customer_id": "CUST-548",
+            "order_timestamp": "2026-09-15 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": "2",
+                    "item_price": 3.25
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": 5.23
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": "2",
+                    "item_price": 3.28
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": 1.3
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1034",
+            "customer_id": "CUST-508",
+            "order_timestamp": "2026-09-05 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$4.04"
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": "2",
+                    "item_price": "$3.82"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1035",
+            "customer_id": "CUST-524",
+            "order_timestamp": "2026-09-19 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": 2.72
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1036",
+            "customer_id": "CUST-526",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": 5.18
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": "2",
+                    "item_price": "$3.76"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1037",
+            "customer_id": "CUST-508",
+            "order_timestamp": "2026-09-20 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$3.96"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1038",
+            "customer_id": "CUST-511",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 3,
+                    "item_price": 3.76
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": "2",
+                    "item_price": "$3.72"
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": null,
+                    "item_price": 2.34
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1039",
+            "customer_id": "CUST-541",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 1,
+                    "item_price": 2.71
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1040",
+            "customer_id": "CUST-508",
+            "order_timestamp": "2026-09-16 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": 3.04
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1041",
+            "customer_id": "CUST-538",
+            "order_timestamp": "2026-09-04 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": 2.02
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.89"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1037",
+            "customer_id": "CUST-544",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": null,
+                    "item_price": 1.3
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 1,
+                    "item_price": "$1.32"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1043",
+            "customer_id": "CUST-542",
+            "order_timestamp": "2026-09-12 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": "2",
+                    "item_price": 3.39
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1044",
+            "customer_id": "CUST-523",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 3,
+                    "item_price": "$2.95"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.96"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": "$5.42"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 1,
+                    "item_price": "$2.13"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1045",
+            "customer_id": "CUST-548",
+            "order_timestamp": "2026-09-15 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 2,
+                    "item_price": "$1.80"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": "$5.17"
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": "$2.36"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": "$2.97"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1046",
+            "customer_id": "CUST-531",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": 5.65
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 2,
+                    "item_price": 1.2
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1047",
+            "customer_id": "CUST-523",
+            "order_timestamp": "2026-09-16 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 3,
+                    "item_price": "$4.28"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": 5.24
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 2,
+                    "item_price": "$3.84"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1048",
+            "customer_id": "CUST-517",
+            "order_timestamp": "2026-09-19 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": 1.33
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 2,
+                    "item_price": "$2.87"
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": 1.99
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1049",
+            "customer_id": "CUST-506",
+            "order_timestamp": "2026-09-01 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": 5.47
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 1,
+                    "item_price": 2.38
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$3.88"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1050",
+            "customer_id": "CUST-519",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": null,
+                    "item_price": 1.26
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.64"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1051",
+            "customer_id": "CUST-527",
+            "order_timestamp": "2026-09-10 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": 3.05
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1052",
+            "customer_id": "CUST-510",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": "2",
+                    "item_price": 3.01
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": 2.77
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1053",
+            "customer_id": "CUST-504",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.88"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": "$1.26"
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 3,
+                    "item_price": 2.73
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1054",
+            "customer_id": "CUST-518",
+            "order_timestamp": "2026-09-15 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": "$5.70"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1055",
+            "customer_id": "CUST-528",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$4.07"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1056",
+            "customer_id": "CUST-537",
+            "order_timestamp": "2026-09-01 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.53"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 2,
+                    "item_price": "$3.39"
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 1,
+                    "item_price": "$2.75"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1057",
+            "customer_id": "CUST-521",
+            "order_timestamp": "2026-09-11 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": null,
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 3,
+                    "item_price": "$2.89"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1058",
+            "customer_id": "CUST-502",
+            "order_timestamp": "2026-09-15 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": null,
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": 1.89
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1059",
+            "customer_id": "CUST-542",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": null,
+                    "item_price": "$3.54"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 2,
+                    "item_price": "$5.63"
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": "2",
+                    "item_price": "$2.21"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": "$5.07"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1060",
+            "customer_id": "CUST-519",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": 3.23
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1061",
+            "customer_id": "CUST-531",
+            "order_timestamp": "2026-09-10 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 2,
+                    "item_price": "$4.15"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": 5.55
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": 3.45
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1062",
+            "customer_id": "CUST-521",
+            "order_timestamp": "2026-09-17 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": null,
+                    "item_price": 2.38
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": 3.07
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": 5.53
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1063",
+            "customer_id": "CUST-520",
+            "order_timestamp": "2026-09-07 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": "$2.72"
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": "2",
+                    "item_price": 2.4
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1064",
+            "customer_id": "CUST-531",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": 3.6
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": "$5.05"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1065",
+            "customer_id": "CUST-504",
+            "order_timestamp": "2026-09-16 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 1,
+                    "item_price": 2.04
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": "$2.13"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": "$2.04"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1066",
+            "customer_id": "CUST-504",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 1,
+                    "item_price": 4.19
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 1,
+                    "item_price": "$1.24"
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 3,
+                    "item_price": 2.4
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1067",
+            "customer_id": "CUST-515",
+            "order_timestamp": "2026-09-17 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": 2.89
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 2,
+                    "item_price": 1.28
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": "2",
+                    "item_price": 5.94
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": "2",
+                    "item_price": "$2.17"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1068",
+            "customer_id": "CUST-510",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": 2.18
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": "2",
+                    "item_price": 2.17
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": 5.06
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 1,
+                    "item_price": "$2.68"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1069",
+            "customer_id": "CUST-536",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": 2.31
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 2,
+                    "item_price": "$4.10"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": "$1.35"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 2,
+                    "item_price": 4.98
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1070",
+            "customer_id": "CUST-547",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": 3,
+                    "item_price": "$3.70"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 2,
+                    "item_price": 3.29
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1071",
+            "customer_id": "CUST-518",
+            "order_timestamp": "2026-09-11 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": null,
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 2,
+                    "item_price": 6.0
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1072",
+            "customer_id": "CUST-523",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 3,
+                    "item_price": 2.37
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": "$2.23"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": null,
+                    "item_price": 1.29
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": "$3.18"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1073",
+            "customer_id": "CUST-541",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": "2",
+                    "item_price": 2.72
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1074",
+            "customer_id": "CUST-534",
+            "order_timestamp": "2026-09-05 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": "$5.35"
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": "2",
+                    "item_price": "$3.96"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": "$1.33"
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": "2",
+                    "item_price": 2.58
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1075",
+            "customer_id": "CUST-506",
+            "order_timestamp": "2026-09-12 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 1,
+                    "item_price": 2.44
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": null,
+                    "item_price": 5.04
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 2,
+                    "item_price": 2.27
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1076",
+            "customer_id": "CUST-548",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": "$2.63"
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 3,
+                    "item_price": "$3.16"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1077",
+            "customer_id": "CUST-516",
+            "order_timestamp": "2026-09-06 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 2,
+                    "item_price": 2.31
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1078",
+            "customer_id": "CUST-511",
+            "order_timestamp": "2026-09-09 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 1,
+                    "item_price": "$3.13"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1079",
+            "customer_id": "CUST-532",
+            "order_timestamp": "2026-09-19 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": "$5.49"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1080",
+            "customer_id": "CUST-541",
+            "order_timestamp": "2026-09-01 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 1,
+                    "item_price": 5.87
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1081",
+            "customer_id": "CUST-504",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": null,
+                    "item_price": 2.59
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": null,
+                    "item_price": 2.82
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": "2",
+                    "item_price": "$3.16"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1082",
+            "customer_id": "CUST-541",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 3,
+                    "item_price": 3.85
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": "$5.38"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1083",
+            "customer_id": "CUST-523",
+            "order_timestamp": "2026-09-05 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": "2",
+                    "item_price": 1.15
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 2,
+                    "item_price": 1.31
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": "$3.00"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": 2.06
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1084",
+            "customer_id": "CUST-519",
+            "order_timestamp": "2026-09-12 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": 2.79
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1085",
+            "customer_id": "CUST-522",
+            "order_timestamp": "2026-09-18 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": "2",
+                    "item_price": "$1.32"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": "$3.60"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 3,
+                    "item_price": "$2.98"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1086",
+            "customer_id": "CUST-544",
+            "order_timestamp": "2026-09-10 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": null,
+                    "item_price": "$1.79"
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": 1,
+                    "item_price": "$3.56"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": "2",
+                    "item_price": 1.31
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1087",
+            "customer_id": "CUST-523",
+            "order_timestamp": "2026-09-10 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": "$2.84"
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 1,
+                    "item_price": 3.14
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": null,
+                    "item_price": 2.17
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1083",
+            "customer_id": "CUST-513",
+            "order_timestamp": "2026-09-17 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": null,
+                    "item_price": 1.96
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1089",
+            "customer_id": "CUST-502",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 2,
+                    "item_price": 2.54
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 1,
+                    "item_price": 3.15
+                },
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 2,
+                    "item_price": 2.49
+                },
+                {
+                    "product_id": "SKU_PKG_01",
+                    "product_name": "Almond Milk (Half Gallon)",
+                    "quantity": null,
+                    "item_price": 3.92
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1090",
+            "customer_id": "CUST-547",
+            "order_timestamp": "2026-09-02 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_01",
+                    "product_name": "Organic Bananas (bunch)",
+                    "quantity": 3,
+                    "item_price": 2.47
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": "2",
+                    "item_price": 2.75
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": 2.02
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 3,
+                    "item_price": "$3.17"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1091",
+            "customer_id": "CUST-515",
+            "order_timestamp": "2026-09-14 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Seattle",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 3,
+                    "item_price": "$3.01"
+                },
+                {
+                    "product_id": "SKU_VEG_01",
+                    "product_name": "Fresh Baby Spinach (10oz)",
+                    "quantity": null,
+                    "item_price": 3.86
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": 3,
+                    "item_price": 1.26
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 2,
+                    "item_price": "$2.08"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1092",
+            "customer_id": "CUST-516",
+            "order_timestamp": "2026-09-07 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": null,
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 1,
+                    "item_price": "$2.60"
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": "2",
+                    "item_price": "$3.26"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1093",
+            "customer_id": "CUST-528",
+            "order_timestamp": "2026-09-19 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": "2",
+                    "item_price": 1.85
+                },
+                {
+                    "product_id": "SKU_VEG_02",
+                    "product_name": "Organic Carrots (2lb bag)",
+                    "quantity": 3,
+                    "item_price": "$2.32"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 1,
+                    "item_price": 3.01
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1094",
+            "customer_id": "CUST-504",
+            "order_timestamp": "2026-09-21 00:00:00",
+            "status": null,
+            "shipping_address": {
+                "city": null,
+                "zip_code": "98101"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": null,
+                    "item_price": 2.84
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1095",
+            "customer_id": "CUST-528",
+            "order_timestamp": "2026-09-19 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "SEATTLE",
+                "zip_code": "60601"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 1,
+                    "item_price": "$2.03"
+                },
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": "$5.05"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1096",
+            "customer_id": "CUST-502",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": "New York",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_02",
+                    "product_name": "Greek Yogurt (32oz)",
+                    "quantity": 3,
+                    "item_price": "$5.52"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 3,
+                    "item_price": 2.16
+                },
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": "$2.54"
+                },
+                {
+                    "product_id": "SKU_FRT_02",
+                    "product_name": "Hass Avocado",
+                    "quantity": "2",
+                    "item_price": "$1.21"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1097",
+            "customer_id": "CUST-509",
+            "order_timestamp": "2026-09-11 00:00:00",
+            "status": "completed",
+            "shipping_address": {
+                "city": "Chicago",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": 3,
+                    "item_price": "$2.88"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1098",
+            "customer_id": "CUST-545",
+            "order_timestamp": "2026-09-03 00:00:00",
+            "status": "CANCELLED",
+            "shipping_address": {
+                "city": null,
+                "zip_code": "invalid_zip"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": 2,
+                    "item_price": "$3.21"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": "$3.02"
+                },
+                {
+                    "product_id": "SKU_VEG_03",
+                    "product_name": "Broccoli Crowns (lb)",
+                    "quantity": 2,
+                    "item_price": 1.8
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1099",
+            "customer_id": "CUST-512",
+            "order_timestamp": "2026-09-08 00:00:00",
+            "status": "COMPLETED",
+            "shipping_address": {
+                "city": "chicago",
+                "zip_code": "10001"
+            },
+            "items": [
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 1,
+                    "item_price": "$2.74"
+                },
+                {
+                    "product_id": "SKU_PKG_03",
+                    "product_name": "Whole Wheat Bread",
+                    "quantity": null,
+                    "item_price": "$3.47"
+                }
+            ]
+        },
+        {
+            "order_id": "GROC-1100",
+            "customer_id": "CUST-549",
+            "order_timestamp": "2026-09-20 00:00:00",
+            "status": "PENDING",
+            "shipping_address": {
+                "city": "Austin",
+                "zip_code": null
+            },
+            "items": [
+                {
+                    "product_id": "SKU_PKG_04",
+                    "product_name": "Organic Penne Pasta (16oz)",
+                    "quantity": null,
+                    "item_price": 2.72
+                },
+                {
+                    "product_id": "SKU_FRT_03",
+                    "product_name": "Honeycrisp Apples (lb)",
+                    "quantity": 3,
+                    "item_price": 3.12
+                }
+            ]
+        }
+    ]
+}
