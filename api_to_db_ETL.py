@@ -62,11 +62,11 @@ print(df.head())
 #Ingest data into postgres table  
 #first have to connect to postgreSQL 
 # --- DATABASE CONFIGURATION ---
-DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "C520")
+DB_USER = os.getenv("DB_USER", "user_name")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "passsword")
 DB_HOST = os.getenv("DB_HOST", "loacalhost")
-DB_PORT = os.getenv("DB_PORT", "5435")
-DB_NAME = os.getenv("DB_NAME", "rohinisaichandramunnangi")
+DB_PORT = os.getenv("DB_PORT", "port_value")
+DB_NAME = os.getenv("DB_NAME", "db_name")
 TARGET_TABLE = "IBM_stock_weekly_prices"
 
 print(f"\nIngesting data into PostgreSQL table: {TARGET_TABLE}...")
