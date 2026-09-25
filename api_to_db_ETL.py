@@ -11,7 +11,7 @@ info = IBM_raw_data.json()
 
 
 # 2. Save the raw JSON response properly
-file_path = os.path.expanduser("/Users/rohinisaichandramunnangi/Downloads/Raw_API_file/IBM_raw_data.json")
+file_path = os.path.expanduser("/filepath/Raw_API_file/IBM_raw_data.json")
 
 # 2. Open and save your data
 with open(file_path, "w", encoding="utf-8") as f:
